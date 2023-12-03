@@ -1,6 +1,9 @@
 import * as React from "react";
 import '@fontsource/bruno-ace-sc';
 
+import photo from '../images/scrum.jpg'; // Adjust the path to where you saved the image
+
+
 const styles = {
   container: {
     maxWidth: '800px',
@@ -62,6 +65,13 @@ const styles = {
     display: 'block',
     marginBottom: '10px',
     color: '#666',
+  },
+  photo: {
+    width: '48%', // Approximately half the container width
+    height: '200px', // Adjust as needed
+    background: `url(${photo}) no-repeat center center`, // Use the imported image here
+    backgroundSize: 'cover', // This will cover the entire area of the div
+    marginLeft: '10px', // Adjusted for right alignment
   },
   skeletonDate: {
     height: '30px',
