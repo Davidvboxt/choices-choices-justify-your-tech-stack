@@ -31,6 +31,7 @@ const styles = {
     color: '#0056b3',
     fontSize: '1.5em',
     marginTop: '0px',
+    marginBottom: '10px',
     fontFamily: '"Bruno Ace SC", Arial, sans-serif',
   },
   contentRow: {
