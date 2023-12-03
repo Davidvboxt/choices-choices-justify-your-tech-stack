@@ -115,7 +115,7 @@ const styles = {
 };
 
 // Generate 10 events with skeleton content
-const events = Array.from({ length: 4 }, (_, index) => ({
+const events = Array.from({ length: 8 }, (_, index) => ({
   id: index,
   title: `Event ${index + 1}`,
 }));
