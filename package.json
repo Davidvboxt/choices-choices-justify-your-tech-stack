@@ -1,8 +1,8 @@
 {
-  "name": "justify-your-tech-stack",
+  "name": "my-gatsby-site",
   "version": "1.0.0",
   "private": true,
-  "description": "justify-your-tech-stack",
+  "description": "my-gatsby-site",
   "author": "David van Boxtel",
   "keywords": [
     "gatsby"
@@ -15,6 +15,7 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@fontsource/bruno-ace-sc": "^5.0.17",
     "gatsby": "^5.12.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
